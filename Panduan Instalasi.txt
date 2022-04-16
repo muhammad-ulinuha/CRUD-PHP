@@ -1,0 +1,22 @@
+Panduan Instalasi
+1. ekstrak file di aplikasi xampp
+   - buka folder xampp pada folder local disk (C:)
+   - buka folder htdocs
+   - ekstrak file 
+
+2. impor database
+   - buka aplikasi xampp
+   - pada module Apache dan MySQL, di menu Actions klik tombol start
+   - copypaste link " http://localhost/phpmyadmin/ " di web browser
+   - buat database baru, kasih nama " data_karista "
+   - klik kirim
+   - klik tombol impor
+   - cari file " data_karista.sql " di folder workshop
+   - klik kirim
+
+3. buka web browser (chrome/mozila), copy link dibawah ini lalu paste di web browser.
+   - http://localhost/arvanHalla/workshop/
+   - tekan enter
+
+4. selesai
+ 

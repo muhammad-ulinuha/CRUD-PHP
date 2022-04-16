@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>KARISTA</title>
+  <link rel="stylesheet" href="./asset/utama.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link rel="stylesheet" href="./asset/sosmed.css">
+
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <link href="https://fonts.googleapis.com/css?family=Patuaone:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+</head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+         
+          <a class="navbar-brand" href="#">
+            <img src="./asset/img/logo.jpg" class="img-circle" alt="" width="30" height="24">
+          </a> 
+          <a class="navbar-brand" href="#">UKM KARISTA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: rgb(255, 255, 255);">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav navbar-dark bg-dark justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a href="#dashboard" class="nav-link active" aria-current="page" >Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tentang">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#daftarAnggota">Gabung UKM</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#kontak">Kontak</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./multi_user/halaman_login.php">Login Admin</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+        <!-- Section Dashboard -->
+        <section id="dashboard" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="dashboard-container">
+                <h1>Welcome</h1>
+                <h3>Unit Kegiatan Mahasiswa Musik KARISTA</h3>
+            </div>
+        </section>
+
+       
+
+        <!-- Section Tentang -->
+        <section id="tentang" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="tentang-container" style="color: rgb(255, 255, 255); text-justify: auto; text-align: center;">
+              <br>
+              <br>
+              <br>  
+              <br>
+              <h1>Tentang</h1>
+                <br>
+                <br>
+                <img src="./asset/img/logo.jpg" class="img-circle mx-auto" alt="logo" style="height: 250px; width: 250px;">
+                <br>
+                <h1>KARISTA</h1>
+                <h4>(Keluarga Art Institut Sains Dan Teknologi AKPRIND Yogyakarta)</h4>
+                <h5>Merupakan salah satu Unit Kegiatan Mahasiswa yang telah berdiri sejak 17 November 1991,</h5>
+                <h5>Bergerak di bidang musik yang berada di Institut Sains dan Teknologi AKPRIND Yogyakarta.</h5>
+                <br>
+                <hr>
+                <h1>Kegiatan UKM Musik KARISTA</h1>
+                <br>
+                <!-- images card -->
+                <div class="container" style="color: rgb(0, 0, 0);">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="./asset/img/sasidiwa.jpg" class="card-img-top" alt="..." style="height: 250px; width: 650px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Display SASIDIWA</h5>
+                        <p class="card-text">Acara penerimaan mahasiswa baru IST AKPRIND Yogyakarta yang diselenggarakan setiap tahun.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./asset/img/makrab.jpg" class="card-img-top" alt="..." style="height: 250px; width: 650px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Makrab</h5>
+                        <p class="card-text">Pelantikan anggota baru Unit kegiatan mahasiswa musik Karista.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./asset/img/festival.jpeg" class="card-img-top" alt="..." style="height: 250px; width: 650px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Festival</h5>
+                        <p class="card-text">Mengikuti festival band baik di dalam kampus maupun diluar kampus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./asset/img/perfom.jpeg" class="card-img-top" alt="..." style="height: 250px; width: 650px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Perfome</h5>
+                        <p class="card-text">Mengasah skill sekaligus memperluas jam terbang dengan perfome di dalam kampus maupun diluar kampus.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <!-- end card -->
+
+                <br>
+                <hr>
+            </div>
+            
+        </section> 
+
+          <!-- Section Kontak -->
+        <section id="kontak" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="tantang-container">
+               <h1 style="color: rgb(255, 255, 255);">Update Kegiatan Via Sosial Media</h1>
+               <br>
+               <hr style="color: white;">
+               <br>
+               <!-- partial:index.partial.html -->
+                <div class="social-btns">
+                  <a class="btn facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                  <a class="btn instagram" href="https://www.instagram.com/karista_ent/"><i class="fa fa-instagram"></i></a>
+                  <a class="btn youtube" href="https://www.youtube.com/c/karistaakprind"><i class="fa fa-youtube"></i></a> 
+                  <a class="btn twitter" href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                  <a class="btn google" href="https://mail.google.com"><i class="fa fa-google"></i></a>
+                </div>
+                <!-- partial --> 
+            </div>
+        </section>
+
+        
+        <!-- Section Daftar Anggota -->
+        <section id="daftarAnggota" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="dashboard-container" style="color: rgb(255, 255, 255); text-justify: auto; text-align: center;">
+                <h1>Silahkan Mengisi Fomulir Pendaftaran Anggota</h1>
+                <h3 style="font-family: Patuaone;">Unit Kegiatan Mahasiswa Musik KARISTA</h3>
+                <a href="./admin/tambahdataanggota.php" class="btn btn-primary btn-lg" tabindex="-1" role="button">Form Pendaftaran</a>
+            </div>
+        </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+    <div class="card-footer text-center bg-dark" style="color: rgb(255, 255, 255);">
+          Harry Christyanto Halla (16105158)
+    </div>
+</body>
+   
+</html>
